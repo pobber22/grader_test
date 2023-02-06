@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "grader_test_pobber22"
+version = "0.0.1"
+authors = [
+  { name="Chris Tjahjadi", email="pobber44@gmail.com" },
+]
+description = "test library for Gradescope autograder test files"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pobber22/grader_test"
+"Bug Tracker" = "https://github.com/pobber22/grader_test/issues"
